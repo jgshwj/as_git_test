@@ -10,12 +10,14 @@ import android.view.View;
 public class MainActivity extends ActionBarActivity {
 
     private View view;
+    private View view2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         view = findViewById(R.id.test);
+        view2 = findViewById(R.id.test);
         //yset
     }
 
