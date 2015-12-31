@@ -11,6 +11,7 @@ public class MainActivity extends ActionBarActivity {
 
     private View view;
     private View mView;
+    private View view2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,6 +19,7 @@ public class MainActivity extends ActionBarActivity {
         setContentView(R.layout.activity_main);
         view = findViewById(R.id.test);
         mView = view;
+        view2 = findViewById(R.id.test);
         //yset
     }
 
